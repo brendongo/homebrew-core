@@ -26,6 +26,7 @@ class Semgrep < Formula
   depends_on "ocaml" => :build
   depends_on "opam" => :build
   depends_on "pkg-config" => :build
+  depends_on "pcre"
   depends_on "python@3.9"
 
   resource "attrs" do
